@@ -44,7 +44,11 @@
     }
 
     .text p {
-        font-size: 14px;
+        font-size: 10px;
+    }
+
+    .search-icon i {
+        margin-left: 16px;
     }
 
 }
