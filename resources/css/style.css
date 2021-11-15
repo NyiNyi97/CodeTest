@@ -98,9 +98,10 @@ footer {
 
 .search-icon {
     background-color: #FF0000;
-    width: 70px;
+    width: 55px;
+    height: 45px;
     border-radius: 44%;
-    -webkit-border-radius: 44%;
+    -webkit-border-radius: 55%;
     -moz-border-radius: 44%;
     -ms-border-radius: 44%;
     -o-border-radius: 44%;
@@ -109,10 +110,11 @@ footer {
 }
 
 .search-icon i {
-    margin-left: 21px;
-    margin-top: 12px;
+    margin-left: 20px;
+    margin-top: 14px;
     text-align: center;
     color: #fff;
+    text-align: center;
 }
 
 /* -----NavBar Section---- */
@@ -421,7 +423,7 @@ footer {
     padding: 10px;
 }
 
-/* --------Ad Section------------- */
+/* --------Support Section------------- */
 .icons {
     color: #FF0000;
     font-size: 35px;
