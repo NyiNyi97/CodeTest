@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>APOGEE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--  Font Awesome  -->
+    <link rel="stylesheet" href="vendors/font/css/all.min.css">
+    <!-- Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="vendors/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/css/owl.theme.default.min.css">
+    <!-- Custom Css -->
+    <link href="resources/css/style.css" rel="stylesheet">
+    <link href="resources/css/mediaquery.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--------------------- Header Section ---------------------------->
+    <header>
+        <div class="container mb-1">
+            <div class=" row">
+                <div class="col-md-2 ">
+                    <a href="" class=""> <img src="resources/image/logo1.jpg" class="img-fluid logo" alt=""></a>
+                </div>
+
+                <div class="col-md-6 mt-4">
+                    <form class="d-flex">
+                        <input class="form-control me-2 box" type="search" placeholder="Search product"
+                            aria-label="Search">
+                        <div class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-2 mt-4 login">
+                    <i class="far fa-user pb-1 icon"></i>
+                    <div class="d-inline text sm-text">
+                        <a class="text-muted text-decoration-none">Login Here</a>
+                        <p><strong>My Account</strong></p>
+                    </div>
+                </div>
+
+                <div class="col-md-2 mt-4 cart">
+                    <i class="fas fa-shopping-cart icon"></i>
+                    <div class="d-inline text sm-text">
+                        <a class="text-muted text-decoration-none">Shopping Cart</a>
+                        <p><strong>6 Items</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------- NavBar -------------------->
+        <div class="container-fluid sticky-top">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-dark p-0 bg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-uppercase d-lg-none" href="#">APOGEE</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ul-tag mb-lg-0">
+                                <li class="nav-item dropdown bg-dark li-one">
+                                    <a class="nav-link text-white text-uppercase">
+                                        <i class="fas fa-bars category-icon"></i> ALL CATEGORY
+                                        <i class="fas fa-angle-down category-icon-1"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item li-two">
+                                    <a class="nav-link text-white" aria-current="page" href="#">Service Ticket</a>
+                                </li>
+
+                                <li class="nav-item  li-three">
+                                    <a class="nav-link text-white" href="#">Express Service</a>
+                                </li>
+
+                                <li class="nav-item li-four">
+                                    <a class="nav-link text-white" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item li-five">
+                                    <a class="nav-link text-white" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                            <a class="btn btn-sm btn-uk "><img src="resources/image/united-kingdom.png"
+                                    class="flag img-fluid text-white" alt="">
+                                <span class="text-white"> English </span><i class="fas fa-angle-down flag-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- -------------End NavBar---------------->
+
+        <!----------- Carousel slider" -------------------->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="resources/image/s3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="resources/image/s2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="resources/image/s1.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <!------------End Carousel slider" --------------->
+    </header>
+    <!------------------------ End Header Section ------------------------------>
+
+
+    <!------------ Card Section ----------------->
+    <section class="my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-3">
+                    <div class="card card-0">
+                        <div class="row">
+                            <div class="col-md-6 text-center ">
+                                <p class="products my-3 ">Product Name</p>
+                                <h2 class="off">30% OFF</h2>
+                                <p class="card-text-1">Lorem, Ipsum Is Simply</p>
+                                <p class="card-text-2">Dummy Text Of The Printing</p>
+
+                            </div>
+                            <div class="col-md-6 image-1">
+                                <img src="resources/image/mvlr2.png" class="d-block card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-3">
+                    <div class="card card-0">
+                        <div class="row">
+                            <div class="col-md-6 text-center ">
+                                <p class="products my-3 ">Product Name</p>
+                                <h2 class="off">20% OFF</h2>
+                                <p class="card-text-1">Lorem, Ipsum Is Simply</p>
+                                <p class="card-text-2">Dummy Text Of The Printing</p>
+
+                            </div>
+                            <div class="col-md-6 image-1">
+                                <img src="resources/image/mlvlr3.png" class="d-block card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 text-center my-5">
+                    <button class="btn btn-all-por all-promotions">ALL PROMOTIONS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------End Card Section ---------------->
+
+
+    <!------------- Latest Products Section-------------->
+    <section class=" my-3">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center latest text-uppercase">LATEST <span>PRODUCTS</span></h1>
+                <div class="text-justify text-center">
+                    <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesting industry. Lorem
+                        Ipsum is
+                        <br> simply dummy text of the printing and typesting industry </p>
+                </div>
+
+                <div class="owl-carousel owl-theme" id="product-carousel">
+                    <!---- Product 1 ----->
+                    <div class="item product">
+                        <div class="card card-1">
+                            <div class="percentage">-20%</div>
+                            <img src="resources/image/product1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body product-card-body">
+                            <p class="card-title"><strong>Black-to-Black Heavy Duty Trim Cleaner Kit</p></strong>
+                            <span class="price"><strong>28000 Ks </strong> </span>
+                            <span class="discount">35000 Ks</span>
+                        </div>
+                    </div>
+
+                    <!---- Product 2 ----->
+                    <div class="item product">
+                        <div class="card card-1">
+                            <div class="percentage">-20%</div>
+                            <img src="resources/image/product2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body product-card-body">
+                            <p class="card-title"><strong>Black-to-Black Waterless Wash Wax</p></strong>
+                            <span class="price"><strong>28000 Ks </strong> </span>
+                            <span class="discount">35000 Ks</span>
+                        </div>
+                    </div>
+
+                    <!---- Product 3 ----->
+                    <div class="item product">
+                        <div class="card card-1">
+                            <div class="percentage">-20%</div>
+                            <img src="resources/image/product3.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body product-card-body">
+                            <p class="card-title"><strong>Black to black Trim & Plastic Restorer</p></strong>
+                            <span class="price"><strong>28000 Ks </strong> </span>
+                            <span class="discount">35000 Ks</span>
+                        </div>
+                    </div>
+
+                    <!---- Product 4 ----->
+                    <div class="item product">
+                        <div class="card card-1">
+                            <div class="percentage">-20%</div>
+                            <img src="resources/image/product4.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body product-card-body">
+                            <p class="card-title"><strong> Black to black Trim & Plastic Restorer-Aerosol</p></strong>
+                            <span class="price"><strong>28000 Ks </strong> </span>
+                            <span class="discount">35000 Ks</span>
+                        </div>
+                    </div>
+
+                    <!---- Product 5 ----->
+                    <div class="item product">
+                        <div class="card card-1">
+                            <div class="percentage">-20%</div>
+                            <img src="resources/image/product1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body product-card-body">
+                            <p class="card-title"><strong>Black-to-Black Heavy Duty Trim Cleaner Kit</p></strong>
+                            <span class="price"><strong>28000 Ks </strong> </span>
+                            <span class="discount">35000 Ks</span>
+                        </div>
+                    </div>
+
+                    <!---- Product 6 ----->
+                    <div class="item product">
+                        <div class="card card-1">
+                            <div class="percentage">-20%</div>
+                            <img src="resources/image/product2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body product-card-body">
+                            <p class="card-title"><strong>Black-to-Black Waterless Wash Wax</p></strong>
+                            <span class="price"><strong>28000 Ks </strong> </span>
+                            <span class="discount">35000 Ks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-2">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="resources/image/ad.jpg" class=" img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------End Latest Production Section-------------->
+
+
+    <!------------ Category Section-------------->
+    <section class="my-4">
+        <h1 class="text-center text-uppercase title-category">Categories</h1> <br><br>
+        <div class="container-fluid bg-img">
+            <div class="row ">
+                <div class="col-md-2 my-3 text-center img-effect">
+                    <img src="resources/image/automovie.jpg" class=" img-fluid circles circles-effect" alt="">
+                    <p class="text-center mt-3"><b>Automotive</p></b>
+                </div>
+                <div class="col-md-2 my-3 text-center">
+                    <img src="resources/image/care.jpg" class=" img-fluid circles circles-effect" alt="">
+                    <p class="text-center mt-3"><b>Auto Care</p></b>
+                </div>
+                <div class="col-md-2 my-3 text-center">
+                    <img src="resources/image/electronic.jpg" class=" img-fluid circles circles-effect" alt="">
+                    <p class="text-center mt-3"><b>Auto Electronics</p></b>
+                </div>
+                <div class="col-md-2 my-3 text-center">
+                    <img src="resources/image/tireandwheel.jpg" class=" img-fluid circles circles-effect" alt="">
+                    <p class="text-center mt-3"><b>Tire & Wheel</p></b>
+                </div>
+                <div class="col-md-2 my-3 text-center">
+                    <img src="resources/image/carbattery.jpg" class=" img-fluid circles" alt="">
+                    <p class="text-center mt-3"><b> Car Battery</p></b>
+                </div>
+                <div class="col-md-2 my-3 text-center">
+                    <img src="resources/image/oil.jpg" class=" img-fluid circles" alt="">
+                    <p class="text-center mt-3"> <b>Oil & Lubricant </b></p>
+                </div>
+
+                <div class="row category-image">
+                    <div class="col-md-2 text-center">
+                        <img src="resources/image/moto.jpg" class=" img-fluid circles" alt="">
+                        <p class="text-center mt-3"> <b>Moto parts & Accessories </b></p>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="resources/image/gear.jpg" class=" img-fluid circles" alt="">
+                        <p class="text-center mt-3"> <b>Motorcycle <br>Riding Gear</p> </b>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="resources/image/automovie.jpg" class=" img-fluid circles" alt="">
+                        <p class="text-center mt-3"> <b> Sticker</p></b>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <img src="resources/image/product1.png" class=" img-fluid circles" alt="">
+                        <p class="text-center mt-3"><b>Car Paint</p></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------End Category Section------------>
+
+
+    <!-------------Service Section-------------->
+    <section class="my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 my-4">
+                    <div class="card services-1">
+                        <div class="service-bg">
+                            <div class="row">
+                                <div class="col-md-6 mt-1">
+                                    <img src="resources/image/image2.jpg" class="sm-circle circles img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6 service-text-1">
+                                    <h6 class="mt-1 text-white"> Service Ticket</h6>
+                                    <p class=" text-justify text-white">Lorem Ipsum is simply dummy text of the printing
+                                        and
+                                        typesting industry.
+                                    </p>
+                                    <button class="btn btn-explore color-detail text-uppercase">Explore More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 my-4">
+                    <div class="card  services-1">
+                        <div class="service-bg">
+                            <div class="row">
+                                <div class="col-md-6 mt-1">
+                                    <img src="resources/image/images1.jpg" class="img-fluid circles  sm-circle" alt="">
+                                </div>
+                                <div class="col-md-6  service-text-3">
+                                    <h6 class="mt-1 text-white">Home Service</h6>
+                                    <p class=" text-justify text-white">Lorem Ipsum is simply dummy text of the printing
+                                        and typesting industry.
+                                    </p>
+                                    <button class="btn btn-explore color-detail text-uppercase">Explore More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 my-4">
+                    <div class="card  services-1">
+                        <div class="service-bg">
+                            <div class="row">
+                                <div class="col-md-6 mt-1">
+                                    <img src="resources/image/image3.jpg" class="circles sm-circle img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6 service-text-3">
+                                    <h6 class="mt-1 text-white">Express Service</h6>
+                                    <p class=" text-justify text-white">Lorem Ipsum is simply dummy text of the printing
+                                        and
+                                        typesting industry.
+                                    </p>
+                                    <button class="btn btn-explore color-detail text-uppercase">Explore More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------End Service Section-------------->
+
+
+    <!------------- Featured Products Section-------------->
+    <section class="container my-1 mt-5">
+        <h1 class="text-center latest text-uppercase">Featured <span>Products</span></h1>
+        <div class="row">
+            <div class="text-justify text-center">
+                <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesting industry. Lorem Ipsum is
+                    <br> simply dummy text of the printing and typesting industry </p>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-product">
+                        <div class="out-of-stock text-uppercase">Out of Stock</div>
+                        <div class="product-over-lay">
+                            <div class="percentage1">-20%</div>
+                            <img src="resources/image/product1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-title"><strong>Black-to-Black Heavy Duty Trim Cleaner Kit</p></strong>
+                                <span class="price"><strong>28000 Ks </strong> </span>
+                                <span class="discount">35000 Ks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product2.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black-to-Black Trie Shine</p></strong> <br>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product3.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black to black Trim & Plastic Restorer</p>
+                        </strong>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product4.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black to black Trim & Plastic Restorer-Aerosol</p>
+                        </strong>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product1.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong>Black-to-Black Heavy Duty Trim Cleaner Kit</p></strong>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product2.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black-to-Black Trie Shine</p></strong> <br>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product3.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black to black Trim & Plastic Restorer</p>
+                        </strong>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product4.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black to black Trim & Plastic Restorer-Aerosol</p>
+                        </strong>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product1.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong>Black-to-Black Heavy Duty Trim Cleaner Kit</p></strong>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product2.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black-to-Black Trie Shine</p></strong> <br>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product3.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black to black Trim & Plastic Restorer</p>
+                        </strong>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-4">
+                <div class="product">
+                    <div class="card card-1">
+                        <div class="percentage">-20%</div>
+                        <img src="resources/image/product4.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body product-card-body">
+                        <p class="card-title"><strong> Black to black Trim & Plastic Restorer-Aerosol</p>
+                        </strong>
+                        <span class="price"><strong>28000 Ks </strong> </span>
+                        <span class="discount">35000 Ks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-------------End  Featured Products Section------------>
+
+
+    <!------------------ Ad Section ----------------->
+    <section class="container my-3">
+        <div class="row">
+            <div class="col-md-3 free">
+                <i class="fas fa-shipping-fast icons"></i>
+                <div class="d-inline text">
+                    <span class="text-uppercase"><strong>Free Shipping</strong></span>
+                    <p class=" text-muted">For orders from 30000Ks</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <i class="far fa-user pb-1 icons"></i>
+                <div class="d-inline text">
+                    <span class="text-uppercase"><strong>Support 24/7</strong></span>
+                    <p class=" text-muted">Call us anytime</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <i class="fas fa-shield-alt icons"></i>
+                <div class="d-inline text">
+                    <span class="text-uppercase"><strong>100% Safety</strong></span>
+                    <p class=" text-muted">Only secure payments</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <i class="fas fa-tags icons"></i>
+                <div class="d-inline text">
+                    <span class="text-uppercase"><strong>Hot Offers</strong></span>
+                    <p class=" text-muted">Discount up to 90%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------End Ad Section ----------------->
+
+    <!-------------Footer Section--------------->
+    <footer class="container-fluid mt-5 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mt-3">
+                    <a href=""> <img src="resources/image/logo1.jpg" class="img-fluid logo" alt="">
+                    </a>
+                    <p class="mt-4 location"><i class="fas fa-map-marker-alt location-icon"></i> No.23, Yadana Street,
+                        16/2
+                        Ward,
+                        Thingangyun
+                        Township, Yangon,
+                        Myanmar.
+                    </p>
+                    <p class="phone"><i class="fas fa-phone-alt phone-icon"></i> +95 9xxxxxxxxxxxx, +959xxxxxxxxxxx</p>
+                    <p class="email"><i class="fas fa-envelope email-icon"></i> xxxxxxxxxxxx@xxxxxxx.com</p>
+
+                    <div class="social-media my-3">
+                        <span class=""><i class="fab fa-facebook"></i></span>
+                        <span class=""><i class="fab fa-viber"></i></span>
+                        <span class=""><i class="fab fa-instagram"></i></span>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ">
+                    <h6 class="mt-4 text-white">Information</h6>
+                    <ul class="mt-3 info">
+                        <li class="mt-2"><a href="" class="link"> About Us </a></li>
+                        <li class="mt-2"><a href="" class="link"> Contact Us </a></li>
+                        <li class="mt-2"><a href="" class="link"> Privacy Policy </a></li>
+                        <li class="mt-2"><a href="" class="link"> Term & Conditions </a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h6 class="mt-4 text-white">Customer Service</h6>
+                    <ul class="mt-3 info">
+                        <li class="mt-2"><a href="" class="link"> Service Ticket </a></li>
+                        <li class="mt-2"><a href="" class="link"> Home Service </a></li>
+                        <li class="mt-2"><a href="" class="link"> Express Service </a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h6 class="mt-3 text-white">Payment Type</h6>
+                    <img src="resources/image/WaveMoney.png" class="img-fluid w-25" alt="">
+                    <img src="resources/image/mpu_pay.png" class="img-fluid w-25" alt="">
+                    <img src="resources/image/kbz.png" class="img-fluid w-25" alt="">
+                    <img src="resources/image/ok.png" class="img-fluid w-25 mb-3" alt="">
+                    <img src="resources/image/WaveMoney.png" class="img-fluid w-25 mb-3" alt="">
+                    <img src="resources/image/kbz.png" class="img-fluid w-25 mb-3" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 bg-footer footer-copyright">
+                <p class="text-center mt-2">Copyright &copy; SteadFast 2020. Powered by <span>Innvoix
+                        Digital.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-------------End Footer Section----------->
+
+
+    <!-- JQuery  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <!-- Owl Carousel Js -->
+    <script src="vendors/js/owl.carousel.min.js"></script>
+    <!-- Custom Js -->
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>
