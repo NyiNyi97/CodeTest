@@ -209,12 +209,17 @@
     }
 
     .btn-explore {
-        width: 90px;
+        width: 100%;
         font-size: 15px;
+        padding: 2px;
     }
 
     .out-of-stock {
         padding: 2px;
+    }
+
+    .category-image {
+        margin-left: 5px;
     }
 }
 
