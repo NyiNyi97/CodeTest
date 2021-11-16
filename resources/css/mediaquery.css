@@ -3,20 +3,25 @@
         margin-left: 33px;
     }
 
+    .btn-uk {
+        width: 117px;
+    }
+
     .li-one a {
-        width: 262px;
+        width: 100%;
         margin-right: 70px;
         margin-top: 10px;
     }
 
     .li-two {
+        margin-top: 5px;
         margin-left: 10px;
-
     }
 
     .li-three,
     .li-four,
     .li-five {
+        margin-top: 5px;
         margin-left: 14px;
     }
 
@@ -50,32 +55,9 @@
     .search-icon i {
         margin-left: 16px;
     }
-    
-     .support {
+
+    .support {
         padding-left: 20px;
-    }
-
-}
-
-@media only screen and (max-width:1320px) {
-    .btn-uk {
-        width: 117px;
-    }
-
-    .li-one a {
-        width: 100%;
-        margin-right: 70px;
-        margin-top: 10px;
-    }
-
-    .li-two {
-        margin-left: 10px;
-    }
-
-    .li-three,
-    .li-four,
-    .li-five {
-        margin-left: 14px;
     }
 }
 
@@ -544,7 +526,7 @@
     }
 
     .li-two {
-        margin-left: -18px;
+        margin-left: 18px;
     }
 
     .ul-tag {
